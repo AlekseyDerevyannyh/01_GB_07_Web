@@ -21,9 +21,8 @@ a {
 	width: 400px;
 }
 
-.bigsize {
-	font-size: 2rem;
-	color: red;
+ul {
+	list-style-type: circle;
 }
 
 @font-face {
@@ -34,8 +33,4 @@ a {
 		url('../fonts/teddy_bear.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
 		url('../fonts/teddy_bear.ttf') format('truetype'), /* Safari, Android, iOS */
 		url('../fonts/teddy_bear.svg#teddy_bear') format('svg'); /* Chrome < 4, Legacy iOS */
-}
-
-ul {
-	list-style-type: circle;
 }
